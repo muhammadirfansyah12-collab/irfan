@@ -1,0 +1,187 @@
+<html>
+ <head>
+  <title>   
+   Portfolio
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+    /* Embedded Style Sheet */
+   body { /*mengatur halaman web secara keseluruhan */
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://apod.nasa.gov/apod/image/0105/halebopp5_aac_big.jpg') no-repeat center center fixed;
+background-size: cover;
+
+            overflow-x: hidden; 
+        }
+        .container { /* Mengatur tata letak kontainer halaman */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            padding: 0 20px; 
+        }
+        .header { /* Mengatur backgraound atas */
+            width: 100%;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header .brand { /* Mengatur gaya untuk nama web zsh di header */
+            font-size: 1.5em;
+            font-weight: bold;
+            color: white;
+        }
+        .header nav { /* Mengatur gaya untuk tautan di dalam web */
+            display: flex;
+            justify-content: flex-end;
+            flex-grow: 1;
+            margin-right: 20px;
+        }
+        .header nav a {  /* Mengatur gaya untuk tautan di dalam web */
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .profile { /* Mengatur gaya profil */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px; 
+            margin: 20px 0;
+            flex-wrap: wrap; 
+        }
+        .profile .info { /* Mengatur gaya infomasi profil */
+            text-align: left;
+            flex: 1;
+            min-width: 300px;
+        }
+        .profile .info h1 { /* Mengatur gaya untuk judul zsh di dalam informasi profil */
+            color: white;
+            font-size: 2.5em;
+        }
+        .profile .info p {
+            color: white;
+            font-size: 1.2em;
+        }
+        .profile .info a {
+            background-color: #022b0f; /* Mengatur gaya informasi zsh di dalam informasi profil */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1em;
+            text-decoration: none;
+        }
+        .profile .image {
+            text-align: center;
+            flex: 1;
+            min-width: 300px; /* pengatur lebar */
+            margin-left: 40px; /* pemindahan foto kanan */
+        }
+        .profile .image img {
+            width: 250px; /* ukuran gambar */
+            height: 250px; 
+            border-radius: 50%;
+        }
+        .profile .image .social-icons {
+            margin-top: 10px;
+        }
+        .profile .image .social-icons a {
+            color: #b426ad;
+            margin: 0 10px;
+            font-size: 1.5em;
+            text-decoration: none;
+        }
+        .about {
+            width: 100%;
+            color: white;
+            max-width: 1200px; 
+            margin: 20px 0;
+        }
+        .about h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .about p {
+            font-size: 1em;
+            line-height: 1.5em;
+        }
+        h1, h2 {
+            text-shadow: 2px 2px 5px rgb(201, 201, 201);
+        }
+        button, .contact-button {
+            box-shadow: 2px 2px 8px rgb(201, 201, 201);
+            transition: box-shadow 0.3s ease;
+        }
+        button:hover, .contact-button:hover {
+            box-shadow: 4px 4px 12px rgb(201, 201, 201);
+        }
+        section, .card {
+            box-shadow: 0px 4px 10px rgb(201, 201, 201);
+            padding: 20px;
+            border-radius: 10px;
+            background-color: white;
+        }
+</style>
+ </head>
+ <body>
+  <div class="header">
+   <div class="brand">
+    Stars Studio   
+</div>
+   <nav>
+    <a href="file:///C:/Users/aguss/Desktop/codingan%20kosong/pemrog%20s5/Pertemuan%2010/home.html">
+     Home
+</a>
+    <a href="file:///C:/Users/aguss/Desktop/codingan%20kosong/pemrog%20s5/Pertemuan%2010/kontak.html">
+        Contact Us
+    </a>
+    <a href="file:///C:/Users/aguss/Desktop/codingan%20kosong/pemrog%20s5/Pertemuan%2010/bio.html">
+      Stars Teams
+    </a>
+    <a href="file:///C:/Users/aguss/Desktop/codingan%20kosong/pemrog%20s5/Pertemuan%2010/skill.html">
+     Skills
+    </a>
+   </nav>
+  </div>
+  <div class="container">
+   <div class="profile">
+    <div class="info">
+     <h1>
+      Stars Team
+     </h1>
+     <p>
+        Full stack developer
+     </p>
+     <a href="https://wa.me/081230059929" target="_blank">
+      Contact Us
+     </a>
+    </div>
+    <div class="image">
+     <img alt="Profile" height="250" src="stars_studio_black_to_white_preserve_blue.png" width="250"/>
+     <div class="social-icons">
+      <a href="https://www.instagram.com/ftsl_r1/profilecard/?igsh=YjQ5bG02MHRqZnhn">
+       <i class="fab fa-instagram">
+       </i>
+      </a>
+       </i>
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="about">
+    <h2>
+     ABOUT US 
+    </h2>
+    <p>
+        Kami adalah sekelompok mahasiswa Teknik Informatika yang memiliki minat yang sama dalam mengembangkan solusi teknologi inovatif. Melalui kolaborasi dan kreativitas, kami berupaya untuk menciptakan proyek-proyek yang bermanfaat dan berdampak positif bagi masyarakat.
+
+   </div>
+  </div>
+ </body>
+</html>
